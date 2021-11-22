@@ -14,7 +14,7 @@
     "rich-text#email-text": {
         "props": {
             "blockClass": ["text__top-bar","email__top-bar"],
-            "text":"![email](https://via.placeholder.com/14x16) bruno.duarte@gmail.com"
+            "text":"![email](assets/imgs/top-bar/email.png) bruno.duarte@gmail.com"
         }
     },
     
