@@ -21,21 +21,21 @@
     "rich-text#phone-text": {
         "props": {
             "blockClass": ["text__top-bar","phone__top-bar"],
-            "text":"![phone](https://via.placeholder.com/14x16) +55 (14) 0000-0000"
+            "text":"![phone](assets/imgs/top-bar/phone.png) +55 (14) 0000-0000"
         }
     },
 
     "rich-text#login-text": {
         "props": {
             "blockClass": ["text__top-bar","login__top-bar"],
-            "text":"Login ![login](https://via.placeholder.com/14x16)"
+            "text":"Login ![login](assets/imgs/top-bar/login.png)"
         }
     },
 
     "rich-text#wishlist-text": {
         "props": {
             "blockClass": ["text__top-bar","wishlist_top-bar"],
-            "text":"Wishilist ![wishlist](https://via.placeholder.com/14x16)"
+            "text":"Wishilist ![wishlist](assets/imgs/top-bar/wishlist.png)"
         }
     }
 }
