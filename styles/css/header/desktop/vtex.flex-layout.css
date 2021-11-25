@@ -1,3 +1,27 @@
 .flexRow--wrapper__top-bar {
     background-color: #EEE8AA;
+    height: 55px;
+}
+
+.flexRowContent--wrapper__top-bar {
+    max-width: 1214px;
+    margin: 0 auto;
+}
+
+.flexCol--wrapper__col {
+    flex-direction: row; 
+}
+
+.flexCol--wrapper__col-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper--email__top-bar,
+.wrapper--text__top-bar {
+    margin-right: 30px;
+}
+
+.wrapper--cart__top-bar {
+    margin-right: 0;
 }
