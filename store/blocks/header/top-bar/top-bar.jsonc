@@ -57,7 +57,7 @@
             "text":"Wishilist ![wishlist](assets/imgs/top-bar/wishlist.png)"
         }
     },
-    "rich-text#cart-text": {
+    "rich-text#minicart-text": {
         "props": {
             "blockClass": ["text__top-bar","cart__top-bar"],
             "text":"![wishlist](assets/imgs/top-bar/minicart.png)"
