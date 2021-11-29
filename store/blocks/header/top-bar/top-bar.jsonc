@@ -22,7 +22,8 @@
     "flex-layout.col#right": {
         "children": [
             "rich-text#login-text",
-            "rich-text#wishlist-text"
+            "rich-text#wishlist-text",
+            "rich-text#cart-text"
         ],
         "props": {
             "blockClass":["wrapper__col", "wrapper__col-right"]
@@ -52,8 +53,14 @@
 
     "rich-text#wishlist-text": {
         "props": {
-            "blockClass": ["text__top-bar","wishlist_top-bar"],
+            "blockClass": ["text__top-bar","wishlist__top-bar"],
             "text":"Wishilist ![wishlist](assets/imgs/top-bar/wishlist.png)"
+        }
+    },
+    "rich-text#cart-text": {
+        "props": {
+            "blockClass": ["text__top-bar","cart__top-bar"],
+            "text":"![wishlist](assets/imgs/top-bar/minicart.png)"
         }
     }
 }

@@ -1,4 +1,13 @@
 .paragraph--text__top-bar {
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
+}
+
+.wrapper--email__top-bar,
+.wrapper--text__top-bar {
+    margin-right: 30px; 
+}
+
+.wrapper--cart__top-bar {
+    margin-right: 0;
 }

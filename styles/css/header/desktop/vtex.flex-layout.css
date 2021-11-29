@@ -16,12 +16,3 @@
     display: flex;
     justify-content: flex-end;
 }
-
-.wrapper--email__top-bar,
-.wrapper--text__top-bar {
-    margin-right: 30px;
-}
-
-.wrapper--cart__top-bar {
-    margin-right: 0;
-}
