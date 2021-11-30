@@ -1,12 +1,18 @@
 .paragraph--text__top-bar {
     font-size: 18px;
     color: #000000;
-    margin: 10px auto;
+    font-family: 'JosefinSans';
 }
 
 .wrapper--email__top-bar,
 .wrapper--text__top-bar {
     margin-right: 40px; 
+}
+
+.wrapper--text__top-bar {
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .wrapper--cart__top-bar {

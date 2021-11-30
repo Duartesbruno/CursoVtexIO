@@ -23,7 +23,7 @@
         "children": [
             "rich-text#login-text",
             "rich-text#wishlist-text",
-            "rich-text#cart-text"
+            "rich-text#minicart-text"
         ],
         "props": {
             "blockClass":["wrapper__col", "wrapper__col-right"]
