@@ -36,7 +36,7 @@
                 "phone": 1
             },
             "infinite": true,
-            "showNavigationArrows": "never",
+           // "showNavigationArrows": "never",
             "showPaginationDots": "always"
         }
     },
@@ -73,6 +73,7 @@
           "maxWidth": "100%"
         }
       }
+
 
 
 }
