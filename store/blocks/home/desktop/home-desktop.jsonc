@@ -2,7 +2,9 @@
     "responsive-layout.desktop#home": {
         "children": [
             "list-context.image-list#banner",
-            "flex-layout.row#infocard"
+            "flex-layout.row#infocard",
+            "rich-text#desktop",
+            "image#desktop"
         ]
     },
 
@@ -72,8 +74,26 @@
           "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
           "maxWidth": "100%"
         }
-      }
+      },
 
+      "rich-text#desktop": {
+        "props": {
+            "text": "# Your Coffee, Your Way \n ### New Coffee Markers Collection (I'm on desktop)",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+      },
+      
+      "image#desktop": {
+        "props": {
+          "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+          "maxWidth": "100%",
+          "link": {
+            "url": "/small-appliances/coffee-makers"
+          } ,
+          "alt": "Coffee Makers Collection"
+        }
+      }
 
 
 }
